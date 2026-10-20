@@ -1,0 +1,3 @@
+Les données sont partout : dans la ville, dans la mer, dans le ciel.
+Un cluster Hadoop découpe les données en blocs.
+MapReduce compte, trie et regroupe les données en parallèle.

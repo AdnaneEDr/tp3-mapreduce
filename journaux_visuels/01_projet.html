@@ -1,0 +1,19 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><title>Étape 2 Création du projet Maven</title><style>body{margin:0;background:#edf1f6;color:#10263a;font:16px Arial,sans-serif}main{max-width:1100px;margin:22px auto;background:white;padding:24px;border-radius:10px}h1{font-size:26px;margin:0 0 10px}h2{font-size:18px}p{line-height:1.4}.tag{font-size:13px;color:#486078}pre{background:#132335;color:#f2f5f8;font:18px Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;padding:16px;border-radius:6px;line-height:1.3}footer{font-size:12px;color:#60758b;margin-top:12px}</style><main><div class="tag">TP 3 MapReduce • 13 octobre 2026</div><h1>Étape 2 Création du projet Maven</h1><p>Un projet commun avec sept classes : les quatre exercices et leurs prolongements. Le pom.xml complet est joint au projet.</p><h2>Arborescence</h2><pre>src\main\java\ma\bigdata\tp3\amis\AmisCommuns.java
+src\main\java\ma\bigdata\tp3\amis\Suggestions.java
+src\main\java\ma\bigdata\tp3\horoscope\Horoscope.java
+src\main\java\ma\bigdata\tp3\tri\TriEchantillon.java
+src\main\java\ma\bigdata\tp3\tri\TriSimple.java
+src\main\java\ma\bigdata\tp3\wordcount\MotsParLivre.java
+src\main\java\ma\bigdata\tp3\wordcount\WordCountLivres.java</pre><h2>Paramètres du pom.xml</h2><pre>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;groupId&gt;ma.bigdata&lt;/groupId&gt;
+&lt;artifactId&gt;tp3-mapreduce&lt;/artifactId&gt;
+&lt;version&gt;1.0&lt;/version&gt;
+&lt;maven.compiler.release&gt;8&lt;/maven.compiler.release&gt;
+&lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;
+&lt;groupId&gt;org.apache.hadoop&lt;/groupId&gt;
+&lt;artifactId&gt;hadoop-client&lt;/artifactId&gt;
+&lt;version&gt;3.4.1&lt;/version&gt;
+&lt;scope&gt;provided&lt;/scope&gt;
+&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+&lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+&lt;version&gt;3.13.0&lt;/version&gt;</pre><footer>Capture de la consultation du journal réel ou des fichiers du projet. Les journaux complets sont joints au compte rendu.</footer></main></html>

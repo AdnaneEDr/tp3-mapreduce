@@ -1,0 +1,76 @@
+{
+  "wc_gardes": 51,
+  "wc_ignores_tokens": 40,
+  "wc_reduce_output": 42,
+  "wc_combiner_ideal_par_fichier": 45,
+  "tri": {
+    "uniforme_1M.txt": [
+      {
+        "reducer": 0,
+        "lignes": 250118,
+        "premiere": 0,
+        "derniere": 249999
+      },
+      {
+        "reducer": 1,
+        "lignes": 249244,
+        "premiere": 250000,
+        "derniere": 499999
+      },
+      {
+        "reducer": 2,
+        "lignes": 250443,
+        "premiere": 500000,
+        "derniere": 749998
+      },
+      {
+        "reducer": 3,
+        "lignes": 250195,
+        "premiere": 750000,
+        "derniere": 999999
+      }
+    ],
+    "biaise_1M.txt": [
+      {
+        "reducer": 0,
+        "lignes": 706980,
+        "premiere": 0,
+        "derniere": 249998
+      },
+      {
+        "reducer": 1,
+        "lignes": 134006,
+        "premiere": 250000,
+        "derniere": 499999
+      },
+      {
+        "reducer": 2,
+        "lignes": 89755,
+        "premiere": 500000,
+        "derniere": 749996
+      },
+      {
+        "reducer": 3,
+        "lignes": 69259,
+        "premiere": 750002,
+        "derniere": 999988
+      }
+    ],
+    "simulation_echantillon": {
+      "bornes": [
+        3677,
+        58149,
+        310717
+      ],
+      "effectifs": [
+        246366,
+        244501,
+        255642,
+        253491
+      ],
+      "note": "Simulation Python deterministe; pas une execution InputSampler Hadoop."
+    }
+  },
+  "horoscope_invalides": 2,
+  "horoscope_grand_invalides": 486
+}

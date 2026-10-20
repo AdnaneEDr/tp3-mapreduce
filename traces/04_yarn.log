@@ -1,0 +1,5 @@
+2026-10-13 15:23:35 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.19.0.2:8032
+Total Nodes:2
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+9e83c2cb9928:33455	        RUNNING	9e83c2cb9928:8042	                           0
+758252533e9d:36431	        RUNNING	758252533e9d:8042	                           0

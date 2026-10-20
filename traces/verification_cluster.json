@@ -1,0 +1,83 @@
+{
+  "17_tri_grand": {
+    "lignes": 1000000,
+    "tri_global": true,
+    "multiensemble_identique": true,
+    "partitions": [
+      [
+        250118,
+        0,
+        249999
+      ],
+      [
+        249244,
+        250000,
+        499999
+      ],
+      [
+        250443,
+        500000,
+        749998
+      ],
+      [
+        250195,
+        750000,
+        999999
+      ]
+    ]
+  },
+  "18_tri_biaise": {
+    "lignes": 1000000,
+    "tri_global": true,
+    "multiensemble_identique": true,
+    "partitions": [
+      [
+        706980,
+        0,
+        249998
+      ],
+      [
+        134006,
+        250000,
+        499999
+      ],
+      [
+        89755,
+        500000,
+        749996
+      ],
+      [
+        69259,
+        750002,
+        999988
+      ]
+    ]
+  },
+  "19_tri_echantillon": {
+    "lignes": 1000000,
+    "tri_global": true,
+    "multiensemble_identique": true,
+    "partitions": [
+      [
+        247195,
+        0,
+        3729
+      ],
+      [
+        248025,
+        3730,
+        60277
+      ],
+      [
+        259921,
+        60278,
+        324966
+      ],
+      [
+        244859,
+        324968,
+        999988
+      ]
+    ]
+  }
+}

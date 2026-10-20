@@ -1,0 +1,13 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><title>14_suggestions</title><style>body{margin:0;background:#edf1f6;color:#10263a;font:16px Arial,sans-serif}main{max-width:1100px;margin:22px auto;background:white;padding:24px;border-radius:10px}h1{font-size:26px;margin:0 0 10px}h2{font-size:18px}p{line-height:1.4}.tag{font-size:13px;color:#486078}pre{background:#132335;color:#f2f5f8;font:18px Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;padding:16px;border-radius:6px;line-height:1.3}footer{font-size:12px;color:#60758b;margin-top:12px}</style><main><div class="tag">TP 3 MapReduce • 13 octobre 2026</div><h1>14_suggestions</h1><p>Résultat d’une exécution réelle du cluster HDFS et YARN. Les extraits affichés proviennent des journaux joints.</p><h2>Commande exécutée depuis le dossier du projet</h2><pre>docker compose -p tp3captures exec -T namenode hadoop jar /opt/jobs/tp3.jar ma.bigdata.tp3.amis.Suggestions tp3/amis/amis_mini.txt tp3/out/captures_1791905161/14_suggestions</pre><h2>Horodatage UTC et statut</h2><pre>2026-10-13 15:31:00 | code de sortie 0</pre><h2>Extrait du journal Hadoop réel</h2><pre>2026-10-13 15:31:24 INFO  Job:1747 - Job job_1791904987268_0008 running in uber mode : false
+2026-10-13 15:31:41 INFO  Job:1765 - Job job_1791904987268_0008 completed successfully
+		Map input records=5
+		Map output records=71
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce output records=5</pre><h2>Sortie HDFS</h2><pre>Amina	Elias (3 en commun)
+Bilal	[]
+Chaima	[]
+Driss	[]
+Elias	Amina (3 en commun)
+</pre><footer>Capture de la consultation du journal réel ou des fichiers du projet. Les journaux complets sont joints au compte rendu.</footer></main></html>

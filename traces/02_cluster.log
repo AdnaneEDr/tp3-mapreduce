@@ -1,0 +1,7 @@
+NAME                            IMAGE                 COMMAND                  SERVICE           CREATED              STATUS          PORTS
+tp3captures-datanode-1          apache/hadoop:3.4.1   "/usr/local/bin/dumb…"   datanode          About a minute ago   Up 52 seconds   
+tp3captures-datanode-2          apache/hadoop:3.4.1   "/usr/local/bin/dumb…"   datanode          About a minute ago   Up 58 seconds   
+tp3captures-namenode-1          apache/hadoop:3.4.1   "/usr/local/bin/dumb…"   namenode          About a minute ago   Up 57 seconds   0.0.0.0:9870->9870/tcp, [::]:9870->9870/tcp
+tp3captures-nodemanager-1       apache/hadoop:3.4.1   "/usr/local/bin/dumb…"   nodemanager       About a minute ago   Up 58 seconds   
+tp3captures-nodemanager-2       apache/hadoop:3.4.1   "/usr/local/bin/dumb…"   nodemanager       About a minute ago   Up 52 seconds   
+tp3captures-resourcemanager-1   apache/hadoop:3.4.1   "/usr/local/bin/dumb…"   resourcemanager   About a minute ago   Up 57 seconds   0.0.0.0:8088->8088/tcp, [::]:8088->8088/tcp

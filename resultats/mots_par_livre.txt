@@ -1,0 +1,4 @@
+dans	3	{'conte': 1, 'science': 3, 'voyage': 1}
+les	2	{'conte': 1, 'science': 3}
+mer	3	{'conte': 2, 'science': 1, 'voyage': 1}
+ville	2	{'science': 1, 'voyage': 1}

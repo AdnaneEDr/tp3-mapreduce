@@ -1,0 +1,19 @@
+/opt/donnees/charger_hdfs.sh: line 6: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/opt/donnees/charger_hdfs.sh: line 6: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+2.7 M   5.5 M   tp3/amis
+3.7 M   7.5 M   tp3/horoscope
+6.8 M   13.7 M  tp3/jointure
+533     1.0 K   tp3/livres
+11.2 M  22.5 M  tp3/livres_en
+3.6 M   7.1 M   tp3/livres_fr
+14.2 M  28.4 M  tp3/tri
+Jeux de données chargés dans HDFS (répertoire tp3/).

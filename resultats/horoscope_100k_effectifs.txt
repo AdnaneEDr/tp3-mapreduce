@@ -1,0 +1,12 @@
+01 Bélier	8160
+02 Taureau	8544
+03 Gémeaux	8294
+04 Cancer	8894
+05 Lion	8408
+06 Vierge	8590
+07 Balance	8209
+08 Scorpion	8051
+09 Sagittaire	8159
+10 Capricorne	7798
+11 Verseau	8162
+12 Poissons	8245
